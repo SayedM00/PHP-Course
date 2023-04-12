@@ -1,0 +1,21 @@
+switch (varible) {
+	case     :
+		statement;
+		break;
+
+	case     :
+		statement;
+		break;
+
+	
+	case      : // you can merage two of cases.
+	case      : 
+		statement;
+		break;
+
+
+
+	default:
+		statement;
+}
+	

@@ -1,0 +1,4 @@
+Ternary Condition:
+
+condition ? true : false
+

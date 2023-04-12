@@ -1,0 +1,29 @@
+By default, variables are always assigned by values.
+Assigned by reference make variable alias or point to another.
+
+
+Assigned By default:
+
+$a = 1;
+$b = 2;
+
+echo $a; => 1
+echo $b; => 2
+
+Assigned By reference:
+
+$a = 1;
+$b = &$a;
+$b = 10;
+
+echo $a; => 10;
+echo $b; => 10;
+
+---
+$a = 1;
+$b = &$a;
+$b = 10;
+$a = 20;
+
+echo $a; => 20;
+echo $b; => 20;

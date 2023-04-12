@@ -1,0 +1,17 @@
+backslash \ use to escape characters.
+
+echo "Hello "PHP" "; => error now he will look about php in the system.
+
+echo "Hello \"PHP\""; => Hello "PHP"
+
+echo "Hello PHP \"; => error he will escape the next "
+echo "Hello PHP \\"; => Hello PHP \
+
+
+newline nl2br used to make a new line.
+nl2br => newline to a br HTML tag.
+
+echo nl2br(" Hello
+PHP
+New line
+")

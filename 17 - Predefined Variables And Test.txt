@@ -1,0 +1,10 @@
+
+echo $GLOBALS;
+echo $_SERVER;
+echo $_REQUEST;
+echo $_POST;
+echo $_GET;
+echo $_FILES;
+echo $_ENV;
+echo $_COOKIE;
+echo $_SESSION;

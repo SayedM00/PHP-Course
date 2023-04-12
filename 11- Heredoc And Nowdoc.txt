@@ -1,0 +1,48 @@
+HereDoc and NowDoc use to escape blocks  of code
+---------
+HereDoc:
+
+but here the language can parse. variables and backslaches
+(escape and parse)
+
+echo <<< "var"
+	Hello PHP
+	Special characters $$$ ''' """" \\\\
+	can contain variable
+var;
+
+ex :
+
+echo <<< container
+    <div style="width:500px;">
+      <h1 style="font-size:50px; color:purple">test</h1>
+      <form>
+        $input (var will work)
+      </form>
+    </div>
+  container;
+
+
+----------
+
+
+NowDoc:
+
+but here the language can't parse. variables and backslaches
+(Escape)
+
+echo <<< 'var'
+	Hello PHP
+	Special characters $$$ ''' """" \\\\
+	can't contain variable
+var;
+
+ex:
+echo <<< 'container'
+    <div style="width:500px;">
+      <h1 style="font-size:50px; color:purple">test</h1>
+      <form>
+        $input (var won't work)
+      </form>
+    </div>
+  container;

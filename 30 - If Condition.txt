@@ -1,0 +1,11 @@
+- Normal if Condition.
+	
+	if (condition){
+		statement
+	}elseif(condition) {
+		statement
+	}else {
+		statement
+	}
+
+you can write the if condition without {}.

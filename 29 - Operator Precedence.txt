@@ -1,0 +1,19 @@
+|| has Precedence greater than or
+&& has Precedence greater than and 
+
+$b = 10 || false => (true = 1)
+
+					||
+			explanation
+
+when code executes if there is || or && will act like that:
+
+$b = (10 || false) => 1
+$b = 1;
+
+----------------------------
+	true
+($b = 10) or false => 10
+$b = 10;
+
+

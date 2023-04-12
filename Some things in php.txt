@@ -1,0 +1,8 @@
+- dot (.) use to concatenate between strings.
+
+- unset(variable) use to empty the variable.
+
+settype(var, 'type') => convert type to type
+
+intval() => convert string to number
+

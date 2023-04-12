@@ -1,0 +1,15 @@
+type casting
+
+echo 5 + "5 Lessons" => warrning and vale 10
+
+echo 5 + (int) "5 Lessons" => value 10 without worring
+
+echo 5 + 10.5 => 15.5 (data type double)
+
+echo 5 + (int) 10.5 => 15 (data type double)
+
+echo 10.5 + (int) 10.5 => 21 (data type double)
+
+echo (int) 10.5 + (int) 10.5 => 20 (data type int)
+
+echo (int) (10.5 +  10.5) => 21 (data type int)

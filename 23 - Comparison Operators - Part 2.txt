@@ -1,0 +1,11 @@
+Used to compare two values:
+
+> 
+>= 
+<
+<=
+<=> : Sapceship[ less than ,equal or greater ]
+
+100 <=> 200 => -1
+100 <=> 100 => 0
+100 <=> 50  => 1

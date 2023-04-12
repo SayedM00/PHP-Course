@@ -1,0 +1,60 @@
+1. Use forward slashes // for single-line comments
+Single-line comments should be used by the forward slashes method:
+
+// CORRECT: This is a single-line comment  
+
+/** INCORRECT: This is a single-line comment but using the asterisk method **/
+
+
+2. Use forward slash + asterisk (block type) /* */ for multiline comments
+Multiline comments should be used by the slash + asterisk method:
+
+/** 
+ * CORRECT: This is a 
+ * multiline comments
+ * in block style
+**/
+
+// INCORRECT: This is a
+// wrong way of using
+// multiline comments.
+// Sadly, I used it a lot in my projects :-)
+
+3. Use block type /* */ for header comments
+Header comments are the starting comments of a PHP file to clarify the content to the developer.
+
+
+<?php
+
+/** 
+ * This is a PHP file for viewing PHP information
+**/
+
+phpinfo();
+
+
+
+******************** need to know what is that *********************
+4. Use block type /* */ as DocBlock format to document PHP functions and classes
+DocBlock is an adaptation of Javadoc for PHP programming, it allows external document generators and PHP IDEs to interpret variable types for providing code completion, type hinting, and debugging.
+
+
+/**
+* This is an example function
+*
+* @param string $text The text to do the magic
+* @param int $number A number to make the magic even better
+*
+* @return string Return something
+*/
+public function magicFunction(string $text, int $number)
+{
+    // ...
+}
+
+5. Comments should be on their line
+
+// CORRECT: This is a comment on its own-line
+$apple = 'red';
+
+$banana = 'yellow'; // INCORRECT: This comment should not be here

@@ -1,0 +1,12 @@
+<?php 
+	
+- Alternate if condition.
+
+	if (condition) :
+		statement
+	else :
+		statement
+
+	endif;
+
+

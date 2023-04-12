@@ -1,0 +1,13 @@
+Constants:
+- That value can't change during the execution.
+- Constants are always uppercase.
+
+
+
+to create a constant:
+
+define("name", value, case_insensitive)
+
+name: best practice should be uppercase.
+value: mixed value (str, int, double ... )
+case_insensitive: optional but prefer don't use it

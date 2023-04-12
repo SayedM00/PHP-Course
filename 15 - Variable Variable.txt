@@ -1,0 +1,14 @@
+normal variable:
+
+$name = "sayed";
+
+variable variable:
+
+you can make dynamic variables.
+
+$name = "sayed";
+$$name = "is your name";
+
+echo $name;
+echo "<br>";
+echo $$name;

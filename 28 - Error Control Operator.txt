@@ -1,0 +1,21 @@
+Error control operator:
+- control the errors
+
+@
+- Variables
+- Files
+- include
+
+stop executing the code and can put your error.
+
+echo $b; => Error
+
+echo @$b; => there is no error and the result.
+
+echo @$b or die("test") => test
+
+---
+file("file path") => will show your file content as an array.
+
+---
+include("file path") => will show your file content.

@@ -1,0 +1,12 @@
+Rules to declare a variable : 
+
+1 - Starts with the dollar sign $.
+2 - Starts with a letter from a-Z or underscore.
+3 - You can use numbers but only in the middle and the end.
+4 - You can't use special characters.
+5 - Case sensitive.
+
+
+** 
+hint: when you use single quotes your variable won't work.
+hint: when you use double quotes your variable will work.

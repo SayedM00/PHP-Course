@@ -1,0 +1,23 @@
+pre defined constants: (Case sensitive)
+
+PHP_VERSION
+PHP_OS_FAMILY
+PHP_INT_MAX
+DEFAULT_INCLUDE_PATH
+
+
+Magin constants: (case insensitive)
+__LINE__
+__FILE__
+__DIR__
+
+or 
+__line__
+__file__
+__dir___
+
+
+
+Reserved words:
+clone
+break

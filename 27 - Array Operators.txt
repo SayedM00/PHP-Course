@@ -1,0 +1,6 @@
++ 		=> Union
+== 	=> Equal - Same key and value
+!=		=> Not Equal
+<>		=> Not Equal
+===	=> Identical - same key, value and type
+!== 	=> Not Identical

@@ -1,0 +1,21 @@
+Scalar Type:
+
+- Intger
+- Double 
+- String 
+- Boolean
+
+
+Compound Type:
+
+- Array
+- Object 
+
+
+Special Type:
+
+- Resource
+- Null
+
+
+gettype() => to know the type of datatype

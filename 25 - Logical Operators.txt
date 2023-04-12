@@ -1,0 +1,11 @@
+and 
+
+&&
+
+or 
+
+|| 
+
+xor: one is true not both
+
+!: not

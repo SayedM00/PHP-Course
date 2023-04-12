@@ -1,0 +1,36 @@
+normal PHP
+
+<? php echo"test" ?>
+
+or 
+
+<? PHP echo"test" *(in 3)
+
+-------------------------
+
+shortcut PHP
+
+<?="test"?>
+
+------------------------
+
+to print in php we have :
+
+echo 
+
+print
+
+print_r
+
+
+------------------------
+
+enable features:
+
+1- click the start button 
+2- write xampp 
+3- click on the config and choose PHP.ini
+4- search for the feature you want to enable and switch it to on
+5- close the server and open it again
+
+// if you just have PHP code prefer to use <?php *

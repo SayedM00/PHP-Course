@@ -1,0 +1,5 @@
+post-increment: $X++
+pre-increment: ++$X
+
+post-decrement: $X--
+pre-decrement: --$X

@@ -1,0 +1,8 @@
+open server:
+
+1- click the start button 
+2- write xampp 
+3- click start 
+4- go to the browser and write localhost
+
+

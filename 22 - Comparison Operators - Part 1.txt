@@ -1,0 +1,8 @@
+Equal:
+== equal
+!= not equal
+<> not equal
+
+Identical:
+=== identical
+!== not identical
