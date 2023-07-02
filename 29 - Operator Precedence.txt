@@ -11,9 +11,15 @@ when code executes if there is || or && will act like that:
 $b = (10 || false) => 1
 $b = 1;
 
+first step the code will act like this he will does the comparesion first  and (10 || false) so the result will be 10 = true then true = 1 and finaly the $b = 1;
 ----------------------------
 	true
 ($b = 10) or false => 10
 $b = 10;
+
+first step the code will act like this he wil does the assigment first 
+($b=10) so the result will be 10 = true and finlay true or false => ture 
+$b = 10
+
 
 

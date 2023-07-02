@@ -1,6 +1,6 @@
-+ 		=> Union
-== 	=> Equal - Same key and value
++ 		=> Union between arrays
+== 		=> Equal - Same key and value order is not matter
 !=		=> Not Equal
 <>		=> Not Equal
-===	=> Identical - same key, value and type
-!== 	=> Not Identical
+===		=> Identical - same key, value and type order is matter
+!== 		=> Not Identical

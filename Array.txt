@@ -1,0 +1,30 @@
+HTML Tag to show details of an array : <pre></pre>
+
+isset() => check if the element is exist or not. (true, false)
+
+إيز سيت لو بتعمل تحقق على الكيى لو الكى موجود و ليه قيمة و القيمة ليست نال هتعطى صحيح و لو العكس هتعطى غلط
+
+array_key_exists($array, value) => check if the element is exist or not.
+
+أراى كيى إيجزيست لو بتعمل تحقق على الكيى لو الكى موجود  و له قيمة سواء كانت القيمة نال او قيمة حقيقة هيعطى صحيح
+
+in_array(element, $array) => check if the array contains this element or not
+
+count($array) => the numbers of element inside the array. or sizeof()
+
+$array[] = 'element' => to push elements in the end of array.
+
+array_push($array, value, value, value, ....) => push element or elements in the end of array.
+
+array_pop($array) => remove the last  element the array.
+
+array_shift($array) => remove the first  element the array.
+
+unset($array or any varibale) => if you put an array without (a spacific element or elements) will destroy the whole array or varibale.
+
++ 		=> Union between arrays
+== 		=> Equal - Same key and value order is not matter
+!=		=> Not Equal
+<>		=> Not Equal
+===		=> Identical - same key, value and type order is matter
+!== 		=> Not Identical

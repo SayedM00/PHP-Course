@@ -1,8 +1,16 @@
+if the operator takes only a single value it's called unary operator. ?
+
+if the operator takes two values it's called binary operator. (most of php operators)
+
+if the operator takes three values it's called ternay operator.
+ 
+
+
 +
 -
-/
+/  (can use this function to division, if you division a nubmer on zero will not come an error) fdiv(value1, value2)
 *
 **
-%
+% (can use this function to get a floot result not an integer) fmod(value1, value2)
 (+)
 (-)

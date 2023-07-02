@@ -2,7 +2,9 @@
 
 - unset(variable) use to empty the variable.
 
-settype(var, 'type') => convert type to type
+- settype(var, 'type') => convert type to type
 
-intval() => convert string to number
+- intval() => convert string to number
+
+- isset() => check if the var existe or not
 

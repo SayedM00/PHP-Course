@@ -1,0 +1,23 @@
+Syntax :
+
+while (condition) {
+	statement
+}
+
+------------------------
+
+do {
+	statement
+} while (condition) 
+
+------------------------
+
+for ($int; condition; increment or decrement) {
+	statement
+}
+
+-------------------------
+
+foreach(iteranbel as var or (key => value) {
+	statement
+}

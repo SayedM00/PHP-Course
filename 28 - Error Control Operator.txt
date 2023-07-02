@@ -10,9 +10,9 @@ stop executing the code and can put your error.
 
 echo $b; => Error
 
-echo @$b; => there is no error and the result.
+echo @$b; => there is no error and the result.  
 
-echo @$b or die("test") => test
+echo @$b or die("test") => test >>>>>>>>>>>>>>>> die stops the php script
 
 ---
 file("file path") => will show your file content as an array.

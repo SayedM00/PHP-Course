@@ -1,0 +1,52 @@
+switch (varible) {
+	case   value  :
+		statement;
+		break;
+
+	case   value  :
+		statement;
+		break;
+
+	
+	case   value   : // you can merage two of cases.
+	case   value   : 
+		statement;
+		break;
+
+
+
+	default:
+		statement;
+}
+-------------------------------
+cases look like the array key and the statment looks like the the array value.
+
+match (varible) {
+	case => value,
+	case => value,
+	case, case => value,
+
+}
+
+-----------------------------
+
+Differecses between switch and match :
+
+match 
+
+- match can assigned to a variable : $test = match(_)....
+- match does not have to use break statment because it just return one statment  once the match is found
+- match does not use default cases but if the value is not found will return an error so you have to put some default cases
+- match compare the value and type of the value (1 is not "1") or match ===
+- case could be any expersion like > or < ....
+- match return just one statement 
+
+switch 
+
+- switch can not assigned to a variable
+- switch have to use break statment because to return one statment  once the case is found
+- if the value is not exsite in the cases will not be an error
+- switch does  compare the value and type of the value (1 is "1") or switch ==
+- case could not be any expersion
+- switch return any statement
+	

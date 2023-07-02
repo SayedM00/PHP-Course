@@ -6,3 +6,12 @@ Equal:
 Identical:
 === identical
 !== not identical
+
+?? if the result is null the value will be the other 
+
+$a = null;
+it $a is not exists the value will be other
+$y = $a ?? 'sayed'; sayed
+
+?:
+

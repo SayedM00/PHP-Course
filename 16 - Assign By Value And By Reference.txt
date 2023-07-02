@@ -1,4 +1,4 @@
-By default, variables are always assigned by values.
+ By default, variables are always assigned by values.
 Assigned by reference make variable alias or point to another.
 
 
@@ -27,3 +27,10 @@ $a = 20;
 
 echo $a; => 20;
 echo $b; => 20;
+
+------------------------------
+
+Diffrence between Pointers & References:
+
+1- Pointers can assianged with null, References can not.
+2- References can't reassign

@@ -1,0 +1,10 @@
+Variables :
+. you can redefine the varibale
+. to create a new variable use $anyname = value
+
+
+
+Constant :
+. you can't redefine the constant
+. to create a new constant use define('name', value)
+. to create a new constant use const name = value

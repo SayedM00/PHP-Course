@@ -1,4 +1,5 @@
-HereDoc and NowDoc use to escape blocks  of code
+*** HereDoc and NowDoc use to escape blocks  of code
+*** HereDox and NowDoc you can you these and variables
 ---------
 HereDoc:
 
@@ -22,7 +23,7 @@ echo <<< container
     </div>
   container;
 
-
+container is just a name to define the here doc you can pick any name as you want
 ----------
 
 

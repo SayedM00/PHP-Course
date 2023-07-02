@@ -1,0 +1,9 @@
+include : bring a file into your file 
+* but if the file is not existe just the output will be warring and the script will continue.
+
+Require : bring a file into your file.
+* but if the file is not existe will force the script to stop like
+
+include_once : bring a file into your file just onetime and can not bring the same file onetime more.
+
+Require_once : bring a file into your file just onetime and can not bring the same file onetime more.

@@ -9,3 +9,13 @@ or
 xor: one is true not both
 
 !: not
+
+?? - if the value is null or there is no a value the value will be the other value
+
+$a = null ?? 10; // a = 10;
+$a = 3 ?? 10; // a = 3;
+
+?: - if the value is zero the value will be the other value
+
+$a = 0 ?? 10; // a = 10;
+$a = 37 ?? 10; // a = 37;
